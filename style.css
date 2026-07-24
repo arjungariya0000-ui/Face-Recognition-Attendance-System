@@ -1,0 +1,133 @@
+/* ------------------------------
+   Global Styles
+--------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff; /* clean white */
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #444;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------
+   Home Page Layout
+--------------------------------*/
+.container {
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.glass-card {
+  width: 260px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #ff6b6b;
+  color: white;
+  transition: 0.25s;
+}
+
+button:hover {
+  background: #ff4b4b;
+}
+
+/* ------------------------------
+   Register Page
+--------------------------------*/
+.card {
+  width: 380px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 85%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 17px;
+}
+
+/* ------------------------------
+   Back Button
+--------------------------------*/
+.btn-back {
+  display: inline-block;
+  margin: 25px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #5522cc;
+}
+
+.btn-back:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------
+   Attendance Start Page
+--------------------------------*/
+.start-container {
+  margin-top: 50px;
+}
+
+/* ------------------------------
+   Records Table (Fixed Visibility)
+--------------------------------*/
+.glass-table {
+  width: 85%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.glass-table th {
+  background: #ff6b6b;
+  color: white;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.glass-table td {
+  padding: 12px;
+  background: white;
+  color: #333; /* <-- visible text */
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.glass-table tr:hover td {
+  background: #ffeaea;
+}
